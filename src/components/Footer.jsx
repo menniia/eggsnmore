@@ -32,42 +32,43 @@ const Footer = () => {
 
                     {/* Quick Links */}
                     <div className="font-jakarta">
-                        <h3 className="font-bold text-lg mb-4">Quick Links</h3>
-                        <ul className="space-y-2">
-                            <li>
-                                <Link
-                                    to='/about'
-                                    className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
-                                >
-                                    About
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to='/company'
-                                    className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
-                                >
-                                    Company
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to='/services'
-                                    className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
-                                >
-                                    Services
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to='/contact'
-                                    className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
-                                >
-                                    Contact
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+  <h3 className="font-bold text-lg mb-4">Quick Links</h3>
+  <ul className="space-y-2">
+    <li>
+      <a
+        href="#about"
+        className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
+      >
+        About
+      </a>
+    </li>
+    <li>
+      <a
+        href="#company"
+        className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
+      >
+        Company
+      </a>
+    </li>
+    <li>
+      <a
+        href="#services"
+        className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
+      >
+        Services
+      </a>
+    </li>
+    <li>
+      <a
+        href="#contact"
+        className="text-gray-300 hover:text-yellow-500 transition-colors duration-200"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</div>
+
 
                     {/* Additional Resources */}
                     <div className="font-jakarta">
