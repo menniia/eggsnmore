@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host --port 5173",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --host --port 5173"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.8",
+    "boafo-accessibility-widget": "^1.1.7",
     "framer-motion": "^12.4.7",
     "lucide-react": "^0.475.0",
     "react": "^19.0.0",
